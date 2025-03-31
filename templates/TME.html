@@ -1,0 +1,196 @@
+<!DOCTYP html>
+<html>
+  <head>
+    <title>TME</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+  <h1>TME - T. Movimento Estereotipado</h1>
+O ponto central é um comportamento motor repetitivo, aparentemente direcionado e sem propósito claro: movimentos ritmados da cabeça, das mãos ou do corpo.
+Os movimentos podem ou não responder a tentativas de pará-los.
+Em crianças com desenvolvimento normal, os movimentos podem ser interrompidos quando atenção é dirigida a elas, quando é distraída da realização dos movimentos e há indivíduos que demonstram comportamentos de autocontenção.
+Em crianças com T. Neurodesenvolvimento, os comportamentos costumam responder menos a tais tentativas.
+* A. Comportamento motor repetitivo, aparentemente direcionado e sem propósito.
+* B. O comportamento interfere em atividades sociais, acadêmicas ou outras, podendo resultar em autolesão. 
+* C. O início se dá precocemente no período do desenvolvimento. 
+* D. O comportamento não é atribuível aos efeitos fisiológicos de uma substância ou a condição.
+Especificar se: 
+1) Com / Sem comportamento autolesivo
+2) Associado a alguma condição médica conhecida
+3) Grau Leve: Os sintomas são suprimidos por estímulos / distração. 
+4) Grau Moderado: Há necessidade  de medidas protetivas. 
+5) Grau Grave: Monitoração contínua e medidas de proteção para prevenir lesões graves.
+T. Movimento Estereotipado sem autolesão.
+T. Movimento Estereotipado com autolesão.
+T. Movimento Estereotipado, não especificado.
+Outros transtornos do neurodesenvolvimento especificados.
+  """
+    text_area.insert(END, long_text)
+    # Tornando o texto não editável
+    text_area.config(state=DISABLED, bg=fundo)
+    Button(janela2, text = 'Fechar Janela', command = janela2.destroy).pack()
+
+def abrir_janela_TDDH():
+    janela2 = Toplevel()
+    janela2.title('TDDH - T. Disruptivo da Desregulação do Humor')
+    janela2.geometry("900x600+300+100")
+    text_area = scrolledtext.ScrolledText(janela2, wrap=WORD, width=90, height=30, font=("Arial", 15))
+    text_area.pack()
+    long_text = """TDDH - T. Disruptivo da Desregulação do Humor
+É uma categoria nova no DSM5. Não existe na CID11.
+A característica central do TDDH é 
+Humor persistentemente irritável ou zangado (na maior parte do dia, quase todos os dias) e Explosões de raiva que devem ocorrer em média três ou mais vezes por semana por pelo menos um ano em pelo menos dois ambientes e devem ser inapropriadas para o desenvolvimento. 
+A Explosões de raiva recorrentes e graves manifestadas pela linguagem (p. ex., violência verbal) e/ou agressividade desproporcionais em intensidade ou duração à situação ou provocação.
+B. As explosões de raiva são inconsistentes com o nível de desenvolvimento.
+C. As explosões de raiva ocorrem, em média, três ou mais vezes por semana.
+D. O humor entre as explosões de raiva é persistentemente irritável ou zangado na maior parte do dia, quase todos os dias, e é observável por outras pessoas.
+E. Os Critérios A-D estão presentes por pelo menos um ano. 
+F. Os Critérios A e D estão presentes em pelo menos dois ambientes e são graves em pelo menos um deles.
+G. O diagnóstico não deve ser feito pela primeira vez antes dos 6 anos ou após os 18 anos de idade.
+H. A idade de início dos Critérios A-E é até os 10 anos.
+I. Nunca houve um episódio maníaco ou hipomaníaco.
+J. Os comportamentos ocorrem sem episódios de T. Depressivo Maior e não são mais bem explicados por outro T. Mental
+K. Os sintomas não são consequência dos efeitos psicológicos de uma substância ou de outra condição médica ou neurológica.
+TDDH pode coexistir com os diagnósticos: TDM / TDAH / TC / TUS. 
+TDDH não pode coexistir com TOD / TEI / TB. 
+Os indivíduos cujos sintomas satisfazem critérios para TDDH e TOD devem somente receber o diagnóstico de TDDH.
+
+  """
+    text_area.insert(END, long_text)
+    # Tornando o texto não editável
+    text_area.config(state=DISABLED, bg=fundo)
+    Button(janela2, text = 'Fechar Janela', command = janela2.destroy).pack()
+
+def abrir_janela_TEI():
+    janela2 = Toplevel()
+    janela2.title('TEI - T. Explosivo Intermitente')
+    janela2.geometry("900x600+300+100")
+    text_area = scrolledtext.ScrolledText(janela2, wrap=WORD, width=90, height=30, font=("Arial", 15))
+    text_area.pack()
+    long_text = """ TEI - T. Explosivo Intermitente
+O TEI está no DSM5 no capítulo dos Transtornos Disruptivos, do Controle de Impulsos e da Conduta e na CID11 no T. do Controle dos Impulsos. Isso significa que é baseado na IMPULSIVIDADE.
+A característica central do TEI são explosões episódicas, em geral como resposta a uma provocação mínima. As explosões duram menos de 30 minutos.
+A.	Manifesto por um dos seguintes aspectos: 
+
+1. Agressão verbal ou física dirigida a propriedade, animais ou outros indivíduos, ocorrendo em uma média de duas vezes por semana, durante um período de três meses. A agressão física não resulta em danos ou destruição de propriedade nem em lesões físicas em animais ou em outros indivíduos. 
+
+Ou
+
+2. Três explosões comportamentais envolvendo danos ou destruição de propriedade e/ou agressão física envolvendo lesões físicas contra animais ou outros indivíduos ocorrendo dentro de um período de 12 meses.
+B. A magnitude da agressividade expressa durante as explosões recorrentes é grosseiramente desproporcional em relação à provocação ou “gatilhos”.
+C. As explosões de agressividade recorrentes não são premeditadas e não têm por finalidade atingir algum objetivo tangível (dinheiro, poder, intimidação). 
+D. As explosões de agressividade recorrentes causam sofrimento acentuado ao indivíduo ou prejuízo no funcionamento profissional ou interpessoal ou estão associadas a consequências financeiras ou legais. 
+E. A idade cronológica é de pelo menos 6 anos (ou nível de desenvolvimento equivalente). 
+F. As explosões de agressividade recorrentes não são mais bem explicadas por outro T. Mental / outra condição médica.
+
+No caso de crianças com idade entre 6 e 18 anos, o comportamento agressivo que ocorre como parte do T. Adaptação não deve ser considerado para esse diagnóstico.
+Este diagnóstico pode coexistir com TDAH / TC / TOD / TEA
+
+nos casos em que as explosões de agressividade excederem as observadas nesses transtornos e justificarem atenção clínica independente.
+
+  """
+    text_area.insert(END, long_text)
+    # Tornando o texto não editável
+    text_area.config(state=DISABLED, bg=fundo)
+    Button(janela2, text = 'Fechar Janela', command = janela2.destroy).pack()
+
+def abrir_janela_TEPT():
+    janela2 = Toplevel()
+    janela2.title('TEPT - T. Estresse Pós-Traumático')
+    janela2.geometry("900x600+300+100")
+    text_area = scrolledtext.ScrolledText(janela2, wrap=WORD, width=90, height=30, font=("Arial", 15))
+    text_area.pack()
+    long_text = """TEPT - T. Estresse Pós-Traumático
+Está no capítulo dos T. Relacionados a Trauma e a Estressores no DSM5 e a Estressores na CID11. A característica essencial é o desenvolvimento de sintomas após a exposição a um ou mais eventos traumáticos. 
+A apresentação clínica varia muito: 1) revivência do medo 2) humor anedônico ou disfórico e cognições negativas 3) excitação e sintomas  externalizantes 4) sintomas dissociativos.
+Crianças de 6 anos ou menos
+        A. Pode ocorrer quando: 
+1. Vivenciar diretamente o evento traumático. 
+2. Testemunhar pessoalmente o evento ocorrido com outras pessoas, especialmemte cuidadores primários. Não inclui eventos vistos apenas em mídia.
+3. Saber que o evento traumático ocorreu com pai/mãe ou cuidador. 
+B. Presença de um (ou mais) dos seguintes sintomas: 
+1. Lembranças intrusivas angustiantes, recorrentes e involuntárias do evento traumático. (Podem ser expressas como reencenação em brincadeiras).
+2. Sonhos angustiantes recorrentes nos quais o conteúdo e/ou a emoção do sonho estão relacionados ao evento traumático. 
+3. Reações dissociativas (flashbacks). Essa reencenação específica do trauma pode ocorrer na brincadeira. 
+4. Sofrimento psicológico intenso ou prolongado ante a exposição a sinais internos ou externos que simbolizem ou se assemelhem a algum aspecto do evento traumático. 
+5. Reações fisiológicas intensas a lembranças do evento traumático.
+B.	Um (ou mais) dos seguintes sintomas, representando evitação persistente de estímulos associados ao evento traumático
+* D. Alterações na excitação e na reatividade associadas ao evento traumático, presente por dois (ou mais) dos seguintes aspectos: 
+1. Comportamento irritadiço ou surtos de raiva (com pouca ou nenhuma provocação) geralmente manifestados como agressão verbal ou física em relação a pessoas ou objetos (incluindo acessos de raiva extremos). 
+2. Hipervigilância. 
+3. Respostas de sobressalto exageradas. 
+4. Problemas de concentração. 
+5. Perturbação do sono. 
+E. A perturbação dura mais de um mês. 
+F. A perturbação causa sofrimento clinicamente significativo ou prejuízo nas relações com pais, irmãos, amigos ou outros cuidadores ou no comportamento na escola. 
+G. A perturbação não se deve aos efeitos fisiológicos de uma substância ou a outra condição médica.
+C.	Um (ou mais) dos seguintes sintomas:
+Evitação persistente de estímulos 
+1. Evitação em atividades, lugares ou lembranças físicas que recordem o evento traumático. 
+2. Evitação de pessoas, conversas ou situações interpessoais que recordem o evento traumático.
+Alterações negativas em cognições 
+3. Frequência substancialmente maior de estados emocionais negativos (medo, culpa, tristeza, vergonha, confusão). 
+4. Interesse / participação muito diminuído em atividades significativas e redução do brincar. 
+5. Comportamento socialmente retraído. 
+6. Redução persistente na expressão de emoções positivas. 
+Havendo presença de sintomas dissociativos
+1. Despersonalização: Experiências persistentes ou recorrentes de sentir-se separado e como se fosse um observador externo dos processos mentais ou do corpo (sensação de estar em um sonho; sensação de irrealidade de si mesmo ou do corpo ou como se estivesse em câmera lenta). 
+2. Desrealização: Experiências persistentes ou recorrentes de irrealidade do ambiente ao redor.
+
+  """
+    text_area.insert(END, long_text)
+    # Tornando o texto não editável
+    text_area.config(state=DISABLED, bg=fundo)
+    Button(janela2, text = 'Fechar Janela', command = janela2.destroy).pack()
+
+def abrir_janela_TDI():
+    janela2 = Toplevel()
+    janela2.title('TDI - Transtorno Dissociativo de Identidade')
+    janela2.geometry("900x600+300+100")
+    text_area = scrolledtext.ScrolledText(janela2, wrap=WORD, width=90, height=30, font=("Arial", 15))
+    text_area.pack()
+    long_text = """TDI - Transtorno Dissociativo de Identidade
+Ruptura na identidade envolve descontinuidade acentuada no senso de si mesmo e de domínio das próprias ações, acompanhada por alterações relacionadas no afeto, no comportamento, na consciência, na memória, na percepção, na cognição e/ou no funcionamento sensório-motor.
+Lacunas recorrentes na recordação de eventos cotidianos, informações pessoais importantes e/ ou eventos traumáticos que são incompatíveis com o esquecimento comum. 
+Os sintomas causam sofrimento clinicamente significativo e prejuízo no funcionamento social, profissional ou em outras áreas importantes da vida do indivíduo. 
+A perturbação não é parte normal de uma prática religiosa ou cultural amplamente aceita.
+Quando estados de personalidade alternados não são observados diretamente, o transtorno pode ser identificado por dois conjuntos de sintomas: 1) alterações ou descontinuidades repentinas no senso de si mesmo e de domínio das próprias ações e 2) amnésias dissociativas recorrentes.
+Os sintomas não são atribuíveis aos efeitos fisiológicos de uma ou a outra condição médica.
+
+Em crianças, os sintomas não são mais bem explicados por amigos imaginários ou outros jogos de fantasia.
+
+  """
+    text_area.insert(END, long_text)
+    # Tornando o texto não editável
+    text_area.config(state=DISABLED, bg=fundo)
+    Button(janela2, text = 'Fechar Janela', command = janela2.destroy).pack()
+
+def abrir_janela_TDPM():
+    janela2 = Toplevel()
+    janela2.title('TDPM - T Disfórico Pre-Menstrual')
+    janela2.geometry("900x600+300+100")
+    text_area = scrolledtext.ScrolledText(janela2, wrap=WORD, width=90, height=30, font=("Arial", 15))
+    text_area.pack()
+    long_text = """TDPM - T Disfórico Pre-Menstrual
+Está no capítulo dos T. Depressivos no DSM5. 
+As características essenciais do TDPM são a expressão de labilidade do humor, irritabilidade, disforia e ansiedade que ocorrem repetidamente durante a fase pré-menstrual do ciclo e remitem por volta do início da menstruação ou logo depois.
+A.	Na maioria dos ciclos menstruais, pelo menos cinco sintomas devem estar presentes na semana antes do início da menstruação, começar a melhorar poucos dias depois do início da menstruação e tornar-se mínimos ou ausentes na semana pós-menstrual. 
+B.	B. Um (ou mais) dos seguintes sintomas deve estar presente: 
+1. Labilidade afetiva acentuada (mudanças de humor; sentir-se repentinamente triste ou chorosa ou sensibilidade aumentada à rejeição).
+2. Irritabilidade ou raiva acentuadas ou aumento nos conflitos interpessoais. 
+3. Humor deprimido acentuado, sentimentos de desesperança ou pensamentos autodepreciativos. 
+4. Ansiedade acentuada, tensão e/ou sentimentos de estar nervosa ou no limite.
+C.	Um (ou mais) dos seguintes sintomas deve estar presente para atingir um total de cinco sintomas quando combinados com os sintomas do Critério B. 
+1. Interesse diminuído pelas atividades habituais. 
+2. Sentimento subjetivo de dificuldade em se concentrar. 
+3. Letargia, fadiga fácil ou falta de energia acentuada. 
+4. Alteração acentuada do apetite, comer em demasia ou avidez por alimentos específicos. 
+5. Hipersonia ou insônia. 
+6. Sentir-se sobrecarregada ou fora de controle. 
+7. Sintomas físicos como sensibilidade ou inchaço das mamas, dor articular ou muscular, sensação de “inchaço” ou ganho de peso.
+D.	D. Os sintomas estão associados a sofrimento clinicamente significativo ou a interferência no trabalho, na escola, em atividades sociais habituais ou relações com outras pessoas. 
+E.	E. A perturbação não é meramente uma exacerbação dos sintomas de outro Transtorno mas pode ser concomitante com alguns.
+F.	F. O Critério A deve ser confirmado por avaliações prospectivas diárias durante pelo menos dois ciclos sintomáticos. 
+G.	G. Os sintomas não são consequência dos efeitos fisiológicos de uma substância ou de outra condição médica.
+  </body>
+</html>
